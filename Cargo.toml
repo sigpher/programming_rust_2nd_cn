@@ -1,0 +1,11 @@
+[workspace]
+members = ["ch02", "ch03"]
+resolver = "2"
+
+[workspace.dependencies]
+rand = "*"
+actix-web = "*"
+serde = { version = "*", features = ["derive"] }
+tokio = { version = "*", features = ["full"] }
+num = "*"
+image = "0.13.0"

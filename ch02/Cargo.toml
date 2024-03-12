@@ -1,0 +1,22 @@
+[package]
+name = "ch02"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = { workspace = true }
+serde = { workspace = true }
+tokio = { workspace = true }
+num = { workspace = true }
+image = { workspace = true }
+
+[[bin]]
+name = "gcd"
+path = "src/gcd.rs"
+
+[[bin]]
+name = "mandelbrot"
+path = "src/mandelbrot.rs"
+
