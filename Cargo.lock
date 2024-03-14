@@ -367,10 +367,17 @@ name = "ch03"
 version = "0.1.0"
 dependencies = [
  "actix-web",
- "num",
  "serde",
  "tokio",
 ]
+
+[[package]]
+name = "ch04"
+version = "0.1.0"
+
+[[package]]
+name = "ch07"
+version = "0.1.0"
 
 [[package]]
 name = "color_quant"

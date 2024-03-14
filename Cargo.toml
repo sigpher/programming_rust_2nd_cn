@@ -1,5 +1,5 @@
 [workspace]
-members = ["ch02", "ch03"]
+members = ["ch02", "ch03", "ch04", "ch07"]
 resolver = "2"
 
 [workspace.dependencies]
@@ -9,3 +9,4 @@ serde = { version = "*", features = ["derive"] }
 tokio = { version = "*", features = ["full"] }
 num = "*"
 image = "0.13.0"
+serde_json = "*"
