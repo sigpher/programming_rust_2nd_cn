@@ -1,6 +1,5 @@
-use ch07::Result;
+use ch07::GenericResult;
 
-fn main() -> Result<()> {
-    
+fn main() -> GenericResult<()> {
     Ok(())
 }
